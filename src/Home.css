@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.home-page {
+    min-height: 100vh;
+    background-color: #0b0b0b;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Section */
+
+.hero-section {
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px;
+
+    background:
+        linear-gradient(to right,
+            #000000 20%,
+            rgba(0, 0, 0, 0.8) 50%,
+            rgba(0, 0, 0, 0.2)),
+        url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba") center/cover no-repeat;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.small-title {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #e50914;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.hero-content h2 {
+    font-size: 30px;
+    margin: 10px 0 20px;
+    color: #dddddd;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #cccccc;
+    max-width: 550px;
+}
+
+/* Button */
+
+.explore-btn {
+    margin-top: 25px;
+    padding: 14px 30px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #e50914;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    background-color: #ff1a25;
+    transform: scale(1.05);
+}
+
+/* Features */
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    padding: 60px 40px;
+}
+
+.feature-card {
+    width: 300px;
+
+    padding: 30px 25px;
+
+    text-align: center;
+
+    background-color: #171717;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    background-color: #222;
+}
+
+.feature-card span {
+    font-size: 40px;
+}
+
+.feature-card h3 {
+    font-size: 21px;
+    margin: 15px 0 10px;
+}
+
+.feature-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #aaaaaa;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content h2 {
+        font-size: 23px;
+    }
+
+    .description {
+        font-size: 15px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-card {
+        width: 90%;
+    }
+}

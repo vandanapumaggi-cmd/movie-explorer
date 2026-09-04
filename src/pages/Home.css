@@ -1,0 +1,71 @@
+/* Main page background */
+.home-page {
+    min-height: 100vh;
+    background-color: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Top hero section */
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://images.unsplash.com/photo-1485846234645-a62644f84728');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+/* WELCOME TO text */
+.welcome {
+    letter-spacing: 5px;
+    color: #e50914;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Movie Explorer heading */
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+/* Discover. Explore. Enjoy. */
+.hero-content h2 {
+    font-size: 1.5rem;
+    color: #cccccc;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+/* Description paragraph */
+.description {
+    font-size: 1rem;
+    color: #aaaaaa;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* Button */
+.hero-content button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-content button:hover {
+    background-color: #b81d24;
+}

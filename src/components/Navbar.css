@@ -1,0 +1,16 @@
+.navbar {
+    text-align: right;
+    padding: 15px 40px;
+    background: #0b0b2a;
+    color: white;
+}
+
+.navbar a {
+    color: #8ea2ff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
