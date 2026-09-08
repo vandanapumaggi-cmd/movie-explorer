@@ -76,7 +76,32 @@ function MovieDetails() {
             image: "https://upload.wikimedia.org/wikipedia/en/7/75/Eega_poster.jpg",
             description:
                 "Eega is a fantasy action film about a man who is reincarnated as a fly and takes revenge on the person who killed him."
+        },
+        {
+            id: 7,
+            title: "darling",
+            year: "2010",
+            genre: "Romance, Comedy",
+            rating: "7.5",
+            director: "A. Karunakaran",
+            cast: "Prabhas, Kajal Aggarwal",
+            image: "https://upload.wikipedia.org/wikipedia/en/5/5e/Darling_poster.jpg",
+            description:
+                "A comedy love story with fantasy twist."
+        },
+        {
+            id: 8,
+            title: "Ishq",
+            year: "2012",
+            genre: "Romance",
+            rating: "7.8",
+            director: "Vikram Kumar",
+            cast: "Nithiin, Nithya Menen",
+            image: "https://upload.wikipedia.org/wikipedia/en/5/5e/Ishq_poster.jpg",
+            description:
+                "A romantic drama about the complexities of love and relationships."
         }
+
     ];
 
     const movie = movies.find((movie) => movie.id === Number(id));
