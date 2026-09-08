@@ -85,7 +85,7 @@ function MovieDetails() {
             rating: "7.5",
             director: "A. Karunakaran",
             cast: "Prabhas, Kajal Aggarwal",
-            image: "https://upload.wikipedia.org/wikipedia/en/5/5e/Darling_poster.jpg",
+            image: "https://upload.wikipedia.org/wikipedia/en/5/5e/Darling_2010_film_poster.jpg",
             description:
                 "A comedy love story with fantasy twist."
         },
@@ -97,7 +97,7 @@ function MovieDetails() {
             rating: "7.8",
             director: "Vikram Kumar",
             cast: "Nithiin, Nithya Menen",
-            image: "https://upload.wikipedia.org/wikipedia/en/5/5e/Ishq_poster.jpg",
+            image: "https://upload.wikipedia.org/wikipedia/en/5/5e/Ishq_2012_flim_poster.jpg",
             description:
                 "A romantic drama about the complexities of love and relationships."
         }
